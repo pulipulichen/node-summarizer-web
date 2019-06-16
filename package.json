@@ -1,0 +1,55 @@
+{
+  "name": "summarizer-web",
+  "version": "1.0.0",
+  "description": "A widget to use node summarizer in web page.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.html",
+    "1-webpack-build-development": "webpack --mode development",
+    "2-webpack-watch-development": "webpack --watch --mode development --display errors-only",
+    "3 webpack-watch-build-production": "webpack --watch --mode production --display errors-only",
+    "4 webpack-build-production": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulipulichen/node-summarizer-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pulipulichen/node-summarizer-web/issues"
+  },
+  "homepage": "https://github.com/pulipulichen/node-summarizer-web#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@kazupon/vue-i18n-loader": "^0.3.0",
+    "@microsoft/loader-raw-script": "^1.2.151",
+    "@vue/component-compiler-utils": "^1.3.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jquery": "^3.4.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "node-summarizer": "^1.0.7",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "vue": "^2.6.10",
+    "vue-fragment": "^1.5.1",
+    "vue-i18n": "^8.10.0",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.30.0",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.1",
+    "webpack-node-externals": "^1.7.2",
+    "webpack-shell-plugin": "^0.5.0",
+    "webworker-threads": "^0.7.17"
+  }
+}
